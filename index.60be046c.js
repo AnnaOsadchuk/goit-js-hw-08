@@ -10,4 +10,4 @@
       </li>`).join("");i.insertAdjacentHTML("beforeend",o),i.addEventListener("click",function(i){if(i.preventDefault(),"IMG"!==i.target.nodeName)return;let o=i.target.dataset.source;basicLightbox.create(`
       <img src="${o}" width="800" height="600">
   `).show()}),document.addEventListener("keydown",i=>{console.dir("event")})}();
-//# sourceMappingURL=index.bc2c0ef9.js.map
+//# sourceMappingURL=index.60be046c.js.map

@@ -10,4 +10,4 @@ const o=document.querySelector(".gallery"),i=[{preview:"https://cdn.pixabay.com/
       </li>`).join("");o.insertAdjacentHTML("beforeend",i),o.addEventListener("click",function(o){if(o.preventDefault(),"IMG"!==o.target.nodeName)return;let i=o.target.dataset.source;basicLightbox.create(`
       <img src="${i}" width="800" height="600">
   `).show()}),document.addEventListener("keydown",o=>{console.dir("event")});
-//# sourceMappingURL=index.2308ea1a.js.map
+//# sourceMappingURL=index.e2994d9b.js.map
